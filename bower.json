@@ -1,0 +1,10 @@
+{
+    "name": "Structrue-of-MEAN-Stack",
+    "version": "0.0.0",
+    "devDependencies": {
+        "jquery": "latest",
+        "angular": "latest",
+        "angular-route": "latest",
+        "bootstrap": "latest"
+    }
+}
