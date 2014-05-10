@@ -1,8 +1,26 @@
-Structrue-of-MEAN-Stack
+Structrue for MEAN Stack Developer
 =======================
 
-git clone
+## Quick Start
 
-npm install
+  Clone the Structure of MEAN Stack repository
 
-bower install
+    $ git clone git://
+
+  Install dependencies:
+
+    $ npm install
+
+    $ bower install
+
+  Start the server:
+
+    $ npm start
+    or
+    $ node app
+
+## Features
+
+  * Using Express 4.0.0 Framework
+  * Includes Major JS Libs
+  * HTML5 Routing
