@@ -5,7 +5,7 @@ Structrue for MEAN Stack Developer
 
   Clone the Structure of MEAN Stack repository
 
-    $ git clone git://
+    $ git clone git://github.com/hafizahmedattari/Structrue-of-MEAN-Stack.git
 
   Install dependencies:
 
