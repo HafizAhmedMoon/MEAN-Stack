@@ -1,5 +1,5 @@
 {
-  "name": "Structrue-of-MEAN-Stack",
+  "name": "MEAN-Stack",
   "version": "0.0.0",
   "scripts": {
     "start": "node app"
