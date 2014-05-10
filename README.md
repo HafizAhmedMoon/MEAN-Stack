@@ -11,8 +11,6 @@ Structrue for MEAN Stack Developer
 
     $ npm install
 
-    $ bower install
-
   Start the server:
 
     $ npm start

@@ -6,6 +6,23 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 //var debug=require('debug');
 
+var mongoose= require('mongoose');
+
+// MongoDB Connection
+/*
+mongoose.connect('mongodb://<user>:<pass>@localhost:27017/test'); // connect to our mongoDB database (commented out after you enter in your own credentials)
+
+var mongo_conn = mongoose.connection;
+
+mongo_conn.on('error', console.error.bind(console, 'connection error:'));
+mongo_conn.once('open', function()
+    console.log('mongoConnected');
+    // create Schema
+    app.db = (new (require('./db'))(app,mongoose)).db;
+});
+*/
+
+
 var app = express();
 
 app.set('port', process.env.PORT || 3000);
@@ -16,6 +33,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Gets data with Database
+//require('./query')(app);
 
 //routes
 require('./routes')(app);
