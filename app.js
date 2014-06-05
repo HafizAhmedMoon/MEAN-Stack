@@ -37,6 +37,6 @@ app.use('/', routes);
 // Error handler
 require('./app/error')(app);
 
-var server = app.listen(app.get('port'), function() {
-    console.info('Server listening on port ' + server.address().port);
+app.listen(app.get('port'), function() {
+    console.info('Server listening on port ' + this.address().port);
 });
