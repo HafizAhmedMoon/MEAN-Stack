@@ -19,6 +19,6 @@ Structrue for MEAN Stack Developer
 
 ## Features
 
-  * Using Express 4.0.0 Framework
+  * Using Express 4.2.0 Framework
   * Includes Major JS Libs
   * HTML5 Routing
