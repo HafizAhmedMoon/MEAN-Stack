@@ -45,7 +45,7 @@ app.use(function (req, res, next) {
 app.use('/api', require('./routes'));
 
 app.all('*', function (req, res) {
-    res.sendfile(path.join(__dirname, 'public','index.html'));
+    res.sendFile(path.join(__dirname, 'public','index.html'));
 });
 // Error handler
 app.use(errorHandler());
