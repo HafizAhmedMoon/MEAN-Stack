@@ -1,11 +1,11 @@
-Structrue for MEAN Stack Developer
+Structure for MEAN Stack Developer
 =======================
 
 ## Quick Start
 
   Clone the Structure of MEAN Stack repository
 
-    $ git clone git://github.com/hafizahmedattari/Structrue-of-MEAN-Stack.git
+    $ git clone git://github.com/hafizahmedattari/MEAN-Stack.git
 
   Install dependencies:
 
@@ -19,6 +19,6 @@ Structrue for MEAN Stack Developer
 
 ## Features
 
-  * Using Express 4.2.0 Framework
+  * Using latest Express Framework
   * Includes Major JS Libs
   * HTML5 Routing
