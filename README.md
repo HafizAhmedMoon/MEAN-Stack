@@ -15,7 +15,7 @@ Structure for MEAN Stack Developer
 
     $ npm start
     or
-    $ node app
+    $ node server
 
 ## Features
 
