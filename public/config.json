@@ -1,3 +1,13 @@
 {
-    "appName": "Website"
+    "appName": "MyApp",
+
+    "showTitle": true,
+
+    "showSubTitle" : true,
+
+    "titlePrefix" : " - ",
+
+    "HTML5Mode": true,
+
+    "hashPrefix": "!"
 }
