@@ -12,13 +12,13 @@ app = angular.module('App', ['ui.router'])
             }
         }
 
-        makeRequest('config.json', function (err, file) {
+        makeRequest('/config.json', function (err, file) {
             if(err) {
                 app.configFile = {};
                 return console.error("config file not found", err);
             }
             try {
-                app.configFile = JSON.parse(file);
+                app.configFile = JSON.parse(JSON.minify(file));
             }
             catch (e) {
                 app.configFile = {};

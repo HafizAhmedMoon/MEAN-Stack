@@ -1,13 +1,13 @@
 {
-    "appName": "MyApp",
+    "appName": "MyApp", /* default "App" */
 
-    "showTitle": true,
+    "showTitle": true, /* default false */
 
-    "showSubTitle" : true,
+    "showSubTitle" : true, /* default false */
 
-    "titlePrefix" : " - ",
+    "titlePrefix" : " - ", /* default " - " */
 
-    "HTML5Mode": true,
+    "HTML5Mode": true,  /* default false */
 
-    "hashPrefix": "!"
+    "hashPrefix": "!"  /* default "" */
 }
